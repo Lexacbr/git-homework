@@ -47,7 +47,7 @@ terraform {
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 1](ссылка на скриншот 1)`
 
-![Скриншот терминала](https://github.com/git-homework/img/scr_sh.png)
+![Скриншот терминала](https://github.com/Lexacbr/git-homework/blob/main/img/scr_sh.png)
 ---
 
 ### Задание 2
