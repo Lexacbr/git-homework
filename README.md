@@ -26,7 +26,7 @@
 
 1. `У меня был уже зарегистророван аккаунт, поэтому этот этап пропущу`
 2. `Клонирую задание  себе на компьютер`
-```
+```bash
 sav@sav-Lenovo-G580:~$ git clone https://github.com/Lexacbr/git-homework
 Клонирование в «git-homework»...
 remote: Enumerating objects: 73, done.
@@ -39,12 +39,12 @@ remote: Total 73 (delta 0), reused 0 (delta 0), pack-reused 70
 ![Скриншот терминала](https://github.com/Lexacbr/git-homework/blob/main/img/scr_sh.png)
 
 4. `Указал своё имя и почту`
-```
+```bash
 sav@sav-Lenovo-G580:~$ git config --global user.name savelev.aleksey
 sav@sav-Lenovo-G580:~$ git config --global user.email aleksej05@mail.ru
 ```
 5. `Выполнил команду:`
-``` 
+```bash
 sav@sav-Lenovo-G580:~$ git status
 Текущая ветка: main
 Неотслеживаемые файлы:
@@ -57,7 +57,7 @@ sav@sav-Lenovo-G580:~$ git status
 ![Скриншот терминала](https://github.com/Lexacbr/git-homework/blob/main/img/vscode.png)
 
 7. `Вывод команды git status` 
-```
+```bash
 sav@sav-Lenovo-G580:~/git-homework$ git status
 Текущая ветка: main
 Эта ветка соответствует «origin/main».
@@ -70,7 +70,7 @@ sav@sav-Lenovo-G580:~/git-homework$ git status
 (используйте «git add», чтобы проиндексировать их)
 ```
 8. `Выполнил команды: git diff и diff --staged . У команды git diff  был слишком подробный вывод и сюда прикреплять я его не стал`
-```
+```bash
 sav@sav-Lenovo-G580:~/git-homework$ git diff --staged
 diff --git a/img/vscode.png b/img/vscode.png
 new file mode 100644
