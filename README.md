@@ -3,7 +3,7 @@
 
 ### Инструкция по выполнению домашнего задания
 
-   1. Сделайте `fork` данного репозитория к себе в Github и переименуйте его по названию или номеру занятия, например, https://github.com/имя-вашего-репозитория/git-hw или  https://github.com/имя-вашего-репозитория/7-1-ansible-hw).
+   1. Сделайте `fork` данного репозитория к себе в Github и переименуйте его по названию или номеру занятия, например, https://github.com/имя-вашего-репозитория/git-hw или  https://github.com/имя-вашего-репозитория/7-1-ansible-hw.
    2. Выполните клонирование данного репозитория к себе на ПК с помощью команды `git clone`.
    3. Выполните домашнее задание и заполните у себя локально этот файл README.md:
       - впишите вверху название занятия и вашу фамилию и имя
@@ -24,30 +24,66 @@
 
 ### Задание 1
 
-1. `Заполнил результаты здесь`
+1. `У меня был уже зарегистророван аккаунт, поэтому этот этап пропущу`
+2. `Клонирую задание  себе на компьютер`
+```
+sav@sav-Lenovo-G580:~$ git clone https://github.com/Lexacbr/git-homework
+Клонирование в «git-homework»...
+remote: Enumerating objects: 73, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 73 (delta 0), reused 0 (delta 0), pack-reused 70
+Получение объектов: 100% (73/73), 3.58 МиБ | 1.83 МиБ/с, готово.
+Определение изменений: 100% (27/27), готово.
+```
+![Скриншот терминала](https://github.com/Lexacbr/git-homework/blob/main/img/scr_sh.png)
 
-``` HCL
-terraform {
-  required_providers {
-    yandex = {
-      source = "yandex-cloud/yandex"
-    }
-  }
-  required_version = ">= 0.13"
-}
+4. `Указал своё имя и почту`
+```
+sav@sav-Lenovo-G580:~$ git config --global user.name savelev.aleksey
+sav@sav-Lenovo-G580:~$ git config --global user.email aleksej05@mail.ru
+```
+5. `Выполнил команду:`
+``` 
+sav@sav-Lenovo-G580:~$ git status
+Текущая ветка: main
+Неотслеживаемые файлы:
+(используйте «git add <файл>...», чтобы добавить в то, что будет включено в коммит)
+индекс пуст, но есть неотслеживаемые файлы
+(используйте «git add», чтобы проиндексировать их)
+```
+6. `Редактировал файл в Visual Studio Code`
+
+![Скриншот терминала](https://github.com/Lexacbr/git-homework/blob/main/img/vscode.png)
+
+7. `Вывод команды git status` 
+```
+sav@sav-Lenovo-G580:~/git-homework$ git status
+Текущая ветка: main
+Эта ветка соответствует «origin/main».
+
+Неотслеживаемые файлы:
+  (используйте «git add <файл>...», чтобы добавить в то, что будет включено в коммит)
+        img/vscode.png
+
+индекс пуст, но есть неотслеживаемые файлы
+(используйте «git add», чтобы проиндексировать их)
+```
+8. `Выполнил команды: git diff и diff --staged . У команды git diff  был слишком подробный вывод и сюда прикреплять я его не стал`
+```
+sav@sav-Lenovo-G580:~/git-homework$ git diff --staged
+diff --git a/img/vscode.png b/img/vscode.png
+new file mode 100644
+index 0000000..80e8494
+Binary files /dev/null and b/img/vscode.png differ
+sav@sav-Lenovo-G580:~/git-homework$ 
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
-
-![Скриншот терминала](https://github.com/Lexacbr/git-homework/blob/main/img/scr_sh.png)
 ---
 
 ### Задание 2
 
-`Приведите ответ в свободной форме........`
-
-1. `Заполните здесь этапы выполнения, если требуется ....`
+1. `Файл ./gitignore находится в меню`
 2. `Заполните здесь этапы выполнения, если требуется ....`
 3. `Заполните здесь этапы выполнения, если требуется ....`
 4. `Заполните здесь этапы выполнения, если требуется ....`
