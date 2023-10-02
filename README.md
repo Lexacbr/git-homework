@@ -24,8 +24,8 @@
 
 ### Задание 1
 
-1. `У меня был уже зарегистророван аккаунт, поэтому этот этап пропущу`
-2. `Клонирую задание  себе на компьютер`
+1. У меня был уже зарегистророван аккаунт, поэтому этот этап пропущу
+2. Клонирую задание  себе на компьютер
 ```bash
 sav@sav-Lenovo-G580:~$ git clone https://github.com/Lexacbr/git-homework
 Клонирование в «git-homework»...
@@ -38,12 +38,12 @@ remote: Total 73 (delta 0), reused 0 (delta 0), pack-reused 70
 ```
 ![Скриншот терминала](https://github.com/Lexacbr/git-homework/blob/main/img/scr_sh.png)
 
-4. `Указал своё имя и почту`
+4. Указал своё имя и почту
 ```bash
 sav@sav-Lenovo-G580:~$ git config --global user.name savelev.aleksey
 sav@sav-Lenovo-G580:~$ git config --global user.email aleksej05@mail.ru
 ```
-5. `Выполнил команду:`
+5. Выполнил команду:
 ```bash
 sav@sav-Lenovo-G580:~$ git status
 Текущая ветка: main
@@ -52,11 +52,11 @@ sav@sav-Lenovo-G580:~$ git status
 индекс пуст, но есть неотслеживаемые файлы
 (используйте «git add», чтобы проиндексировать их)
 ```
-6. `Редактировал файл в Visual Studio Code`
+6. Редактировал файл в Visual Studio Code
 
 ![Скриншот терминала](https://github.com/Lexacbr/git-homework/blob/main/img/vscode.png)
 
-7. `Вывод команды git status` 
+7. Вывод команды git status 
 ```bash
 sav@sav-Lenovo-G580:~/git-homework$ git status
 Текущая ветка: main
@@ -69,7 +69,7 @@ sav@sav-Lenovo-G580:~/git-homework$ git status
 индекс пуст, но есть неотслеживаемые файлы
 (используйте «git add», чтобы проиндексировать их)
 ```
-8. `Выполнил команды: git diff и diff --staged . У команды git diff  был слишком подробный вывод и сюда прикреплять я его не стал`
+8. Выполнил команды: `git diff` и `diff --staged`  У команды `git diff`  был слишком подробный вывод и сюда прикреплять я его не стал
 ```bash
 sav@sav-Lenovo-G580:~/git-homework$ git diff --staged
 diff --git a/img/vscode.png b/img/vscode.png
@@ -78,14 +78,38 @@ index 0000000..80e8494
 Binary files /dev/null and b/img/vscode.png differ
 sav@sav-Lenovo-G580:~/git-homework$ 
 ```
-
+9. Всё "запушил".
 ---
 
 ### Задание 2
 
-1. `Файл ./gitignore находится в меню`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
+1. Создал файл `./gitignore` из меню VSCode
+2. Добавил файл в ветку
+```bash
+sav@sav-Lenovo-G580:~/git-homework$ git add .gitignore
+sav@sav-Lenovo-G580:~/git-homework$ git status
+Текущая ветка: main
+Ваша ветка опережает «origin/main» на 1 коммит.
+  (используйте «git push», чтобы опубликовать ваши локальные коммиты)
+
+Изменения, которые будут включены в коммит:
+  (используйте «git restore --staged <файл>...», чтобы убрать из индекса)
+        новый файл:    .gitignore
+
+```
+3. Сразу запушил
+```bash
+sav@sav-Lenovo-G580:~/git-homework$ git push 
+Перечисление объектов: 5, готово.
+Подсчет объектов: 100% (5/5), готово.
+При сжатии изменений используется до 4 потоков
+Сжатие объектов: 100% (3/3), готово.
+Запись объектов: 100% (3/3), 631 байт | 631.00 КиБ/с, готово.
+Всего 3 (изменений 1), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Lexacbr/git-homework
+   277cf1d..173ee97  main -> main
+```
 4. `Заполните здесь этапы выполнения, если требуется ....`
 5. `Заполните здесь этапы выполнения, если требуется ....`
 6. 
