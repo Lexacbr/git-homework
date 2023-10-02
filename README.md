@@ -54,7 +54,7 @@ sav@sav-Lenovo-G580:~$ git status
 ```
 6. Редактировал файл в Visual Studio Code
 
-![Скриншот терминала](https://github.com/Lexacbr/git-homework/blob/main/img/vscode.png)
+![vscode](https://github.com/Lexacbr/git-homework/blob/main/img/vscode.png)
 
 7. Вывод команды git status 
 ```bash
@@ -110,8 +110,11 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/Lexacbr/git-homework
    277cf1d..173ee97  main -> main
 ```
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
+4. Прописал правила игнорирования
+
+![Ignore](https://github.com/Lexacbr/git-homework/blob/main/img/ignore.png)
+
+5. Делаю коммит и пуш
 6. 
 
 ```
