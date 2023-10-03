@@ -80,7 +80,7 @@ sav@sav-Lenovo-G580:~/git-homework$
 ```
 9. Всё "запушил".
 
-![Ссылка на коммит](https://github.com/netology-code/sys-pattern-homework/commit/9b9eff5ab279cbe81d0cbc910b7dee71a42f1525)
+[Ссылка на коммит](https://github.com/netology-code/sys-pattern-homework/commit/9b9eff5ab279cbe81d0cbc910b7dee71a42f1525)
 
 ---
 
@@ -118,6 +118,8 @@ To https://github.com/Lexacbr/git-homework
 ![Ignore](https://github.com/Lexacbr/git-homework/blob/main/img/ignore.png)
 
 5. Делаю коммит и пуш
+
+[Ссылка на коммит](https://github.com/Lexacbr/git-homework/commit/cce8eb3bcf96b6229126839a2a0c86fd47c40b4b)
 ---
 
 ### Задание 3
