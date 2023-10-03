@@ -79,6 +79,9 @@ Binary files /dev/null and b/img/vscode.png differ
 sav@sav-Lenovo-G580:~/git-homework$ 
 ```
 9. Всё "запушил".
+
+![Ссылка на коммит](https://github.com/netology-code/sys-pattern-homework/commit/9b9eff5ab279cbe81d0cbc910b7dee71a42f1525)
+
 ---
 
 ### Задание 2
@@ -121,7 +124,9 @@ To https://github.com/Lexacbr/git-homework
 
 1. Создаю ветку  dev и имитирую работу
 2. Всё сделал по инструкции и получил вот такой результат: 
+
 ![Graph](https://github.com/Lexacbr/git-homework/network)
  
+ ---
 
 
