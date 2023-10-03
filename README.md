@@ -128,7 +128,7 @@ To https://github.com/Lexacbr/git-homework
 1. Создаю ветку  dev и имитирую работу
 2. Всё сделал по инструкции и получил вот такой результат: 
 
-![Graph](https://github.com/Lexacbr/git-homework/network)
+[Ссылка на Graph](https://github.com/Lexacbr/git-homework/network)
 
 [Ссылка на все коммиты](https://github.com/Lexacbr/git-homework/commits/main)
  
