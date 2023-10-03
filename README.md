@@ -120,6 +120,7 @@ To https://github.com/Lexacbr/git-homework
 5. Делаю коммит и пуш
 
 [Ссылка на коммит](https://github.com/Lexacbr/git-homework/commit/cce8eb3bcf96b6229126839a2a0c86fd47c40b4b)
+
 ---
 
 ### Задание 3
@@ -128,6 +129,8 @@ To https://github.com/Lexacbr/git-homework
 2. Всё сделал по инструкции и получил вот такой результат: 
 
 ![Graph](https://github.com/Lexacbr/git-homework/network)
+
+[Ссылка на все коммиты](https://github.com/Lexacbr/git-homework/commits/main)
  
  ---
 
